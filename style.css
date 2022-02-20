@@ -1,7 +1,8 @@
 header {
- background-color: #5f9ea0;
- color: #fff5ee;
+  background-color: #5f9ea0;
+  color: #fff5ee;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 h1 {
@@ -13,7 +14,7 @@ h1, h3, h5 {
   font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif";
 }
 
-main, footer {
+body {
   background-color: #dcdcdc;
   color: #008b8b;
 }
@@ -29,7 +30,7 @@ h3 {
  font-style: oblique;
 }
 
-h4{
+h4 {
   font-family: "Bookman, URW Bookman L, serif";
   font-size: 28px;
 }
@@ -40,9 +41,17 @@ h5 {
   text-align: center;
 }
 
-p, li {
+p, li, a {
  font-family: "Noto Sans, sans-serif" ;
  font-size: 22px;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: decimal;
 }
 
 img {
@@ -58,4 +67,25 @@ img {
 
 .img-round{
   border-radius: 50%;
+}
+
+.border {
+  border-top: 3px dotted #d8bfd8;
+  padding-top: 25px;
+}
+
+a:link {
+  color: #00ced1;
+}
+
+a:visited {
+  color: #20b2aa;
+}
+
+a:hover {
+  color: #66cdaa;
+}
+
+a:active {
+  color: #48d1cc;
 }
