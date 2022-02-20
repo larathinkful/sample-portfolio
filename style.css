@@ -1,4 +1,4 @@
-header, footer {
+header {
  background-color: #5f9ea0;
  color: #fff5ee;
   text-align: center;
@@ -9,11 +9,11 @@ h1 {
   font-weight: 800;
 }
 
-h1, h3 {
+h1, h3, h5 {
   font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif";
 }
 
-main {
+main, footer {
   background-color: #dcdcdc;
   color: #008b8b;
 }
@@ -34,6 +34,12 @@ h4{
   font-size: 28px;
 }
 
+h5 {
+  font-size: 16px;
+  font-style: oblique;
+  text-align: center;
+}
+
 p, li {
  font-family: "Noto Sans, sans-serif" ;
  font-size: 22px;
@@ -43,6 +49,13 @@ img {
   width: 300px;
 }
 
-.img-round {
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.img-round{
   border-radius: 50%;
 }
