@@ -1,5 +1,5 @@
 header {
-  background-color: #5f9ea0;
+  background-color: #235153;
   color: #fff5ee;
   text-align: center;
   padding-bottom: 45px;
@@ -15,8 +15,9 @@ h1, h3, h4 {
 }
 
 body {
+  height: auto;
   background-color: #dcdcdc;
-  color: #008b8b;
+  color: #084444;
 }
 
 h2 {
