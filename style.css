@@ -65,11 +65,6 @@ img {
   border-radius: 50%;
 }
 
-.border {
-  border-top: 3px dotted #d8bfd8;
-  padding-top: 25px;
-}
-
 a:link {
   color: #00ced1;
 }
