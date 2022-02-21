@@ -1,6 +1,6 @@
 header {
   background-color: #235153;
-  color: #fff5ee;
+  color: #fff5ee; /*seashell*/
   text-align: center;
   padding-bottom: 45px;
 }
@@ -16,8 +16,8 @@ h1, h2, h6 {
 
 body {
   height: auto;
-  background-color: #dcdcdc;
-  color: #084444;
+  background-color: #dcdcdc; /*gainsboro*/
+  color: #084444; 
 }
 
 h3, h4, h5 {
@@ -28,7 +28,7 @@ h3, h4, h5 {
 
 h2 {
  font-size: 38px;
- font-style: oblique;
+ font-style: oblique; /*what is the difference between oblique and italics anyways*/
 }
 
 h6 {
@@ -43,11 +43,11 @@ p, li, a {
 }
 
 ul {
-  list-style-type: circle;
+  list-style-type: circle; /*circular bullet points*/
 }
 
 ol {
-  list-style-type: decimal;
+  list-style-type: decimal; /*numbered list*/
 }
 
 img {
@@ -58,10 +58,10 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 50%; 
 }
 
-.img-round{
+.img-round{ /*circular photo when it's a square to begin with*/
   border-radius: 50%;
 }
 
